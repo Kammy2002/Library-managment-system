@@ -1,0 +1,48 @@
+# Library Management System
+This repository contains the UML diagrams and JavaScript implementation for a simple Library Management System.
+
+## UML Diagrams
+The system includes:
+- **Use Case Diagram**
+- **Class Diagram**
+- **Sequence Diagram**
+
+## Features
+- **Librarian**: Add and remove books.
+- **Member**: Borrow and return books.
+- **System**: Track book availability.
+
+## How to Run
+1. Clone the repository to your local machine.
+2. Open `library-management.js` in a code editor.
+3. Run it in a JavaScript runtime (e.g., Node.js).
+
+## Example Usage
+```javascript
+// Initialize books and members
+const book1 = new Book("The Great Gatsby", "F. Scott Fitzgerald", "123456789", 5);
+const member = new Member("John Doe", "M001");
+
+// Borrow a book
+member.borrowBook(book1);
+4. Save the file by clicking **Commit new file**.
+
+#### File 2: `library-management.js`
+- Click **Add file** > **Create new file**.
+- Name the file `library-management.js`.
+- Copy and paste the JavaScript code from your document into this file.
+- Click **Commit new file**.
+
+#### File 3: UML Diagrams (Optional)
+If you have UML diagrams as images:
+- Click **Add file** > **Upload files**.
+- Drag and drop the image files (e.g., `class-diagram.png`, `use-case-diagram.png`).
+- Commit the files.
+
+### Step 4: Clone the Repository (Optional)
+If you want to work locally:
+1. Copy the repository URL (click the green **Code** button and copy the HTTPS URL).
+2. Open your terminal and run:
+   ```bash
+   git clone <repository-url>
+   cd library-management-system
